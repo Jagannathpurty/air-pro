@@ -92,7 +92,7 @@ const Login = () => {
                 </a>
               </div>
             </div>
-            <button type="submit" className="group relative w-full text-center h=[40px] justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-sm bg-blue-600 hover:bg-blue-500">
+            <button type="submit" className="text-center w-30 h=[40px] justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-sm bg-yellow-600 hover:bg-yellow-500">
               Submit
             </button>
             <div className="flex items-center w-full">

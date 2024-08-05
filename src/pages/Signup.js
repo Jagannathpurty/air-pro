@@ -30,9 +30,42 @@ const Signup = () => {
           Register New User
         </h2>
       </div>
+   
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
           <form className="space-y-6 " onSubmit={handleSubmit} >
+          <div className=" text-center justify-center w-50 m-auto">
+               <label htmlFor="avatar"
+               className="block text-sm font-medium items-center "
+          
+               >
+
+
+               </label>
+
+               <div className="mt-2 flex items-center">
+               
+
+                <label htmlFor="file-input"
+                 className="h-8 flex items-center justify-center px-4">
+ <span className="inline-block h-12 w-12 rounded-full overflow-hidden">
+                  {
+                    avatar ? 
+                    (
+                      <img src={URL.createObjectURL(avatar)} alt="avatar" className="h-full w-full object-cover rounded-full" />
+                    ):(
+                      <RxAvatar className="h-10 w-10" />
+                    )
+                  }
+                </span>
+                  <input type="file" name="avatar" id="file-input" accept=".jpg,.jpeg,.png"
+                  onChange={handleFileInputChange}
+                  className="sr-only"
+                  />
+                 </label>
+               </div>
+
+             </div>
             <div>
               <label
                 htmlFor="name"
@@ -103,7 +136,7 @@ const Signup = () => {
                 )}
               </div>
             </div>
-             <div className="">
+             {/* <div className="">
                <label htmlFor="avatar"
                className="block text-sm font-medium items-center "
           
@@ -134,8 +167,8 @@ const Signup = () => {
                  </label>
                </div>
 
-             </div>
-            <button type="submit" className="group relative w-full text-center h=[40px] justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-sm bg-blue-600 hover:bg-blue-500">
+             </div> */}
+            <button type="submit" className="relative text-center h=[40px] justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-sm bg-yellow-600 hover:bg-yellow-500">
               Submit
             </button>
             <div className="flex items-center w-full">

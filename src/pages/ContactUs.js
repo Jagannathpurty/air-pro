@@ -29,9 +29,9 @@ const ContactUs = () => {
     // Handle form submission logic here
 
     // Your service ID,template ID and Public key
-    const serviceId = 'service_y6qgrot';
-    const templateId = 'template_wufcybr';
-    const publicKey = 'dp53uXQ5o0WpjgOVn';
+    const serviceId = 'service_t1tlr8q';
+    const templateId = 'template_lusazv2';
+    const publicKey = 'DtjIIPIauelcJbk-m';
 
     //object that contains dynamic template params
     const templateParams = {
@@ -41,7 +41,7 @@ const ContactUs = () => {
       country: country,
       phone_number: phone,
       product_model: makeandmodel,
-      to_name: 'pritirekha',
+      to_name: 'jagannath',
       message: message,
 
 
