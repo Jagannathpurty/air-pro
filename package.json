@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Jagannathpurty.github.io/Airpro-pneumatics-spars",
-  "name": "perception_ins",
+  "homepage": "https://Jagannathpurty.github.io/air-pro",
+  "name": "apro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
