@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/air-pro/static/css/main.58111e92.css",
+    "main.js": "/air-pro/static/js/main.38966c85.js",
+    "static/js/787.0e759eec.chunk.js": "/air-pro/static/js/787.0e759eec.chunk.js",
+    "index.html": "/air-pro/index.html",
+    "main.58111e92.css.map": "/air-pro/static/css/main.58111e92.css.map",
+    "main.38966c85.js.map": "/air-pro/static/js/main.38966c85.js.map",
+    "787.0e759eec.chunk.js.map": "/air-pro/static/js/787.0e759eec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58111e92.css",
+    "static/js/main.38966c85.js"
+  ]
+}
