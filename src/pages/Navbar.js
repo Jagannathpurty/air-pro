@@ -2,12 +2,12 @@ import React from 'react';
 import { Navbar as BootstrapNavbar, Nav } from 'react-bootstrap';
 // import { NavDropdown } from 'react-bootstrap';
 // import LogoImage from "./assets/logoap.jpeg";
-import LogoImg from "./assets/airprologo.jpeg";
+// import LogoImg from "./assets/airprologo.jpeg";
 import LogoImg2 from "./assets/airprologo2.jpeg";
-import {IconButton } from '@mui/material';
+// import {IconButton } from '@mui/material';
 // import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './style/Navbar.css';
-import { Typography } from '@mui/material';
+// import { Typography } from '@mui/material';
 
 
 

@@ -9,7 +9,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [avatar,setAvatar]= useState(null);
-  const [file,setFile]= useState()
+  // const [file,setFile]= useState()
 
 
   const handleFileInputChange=(e)=>{

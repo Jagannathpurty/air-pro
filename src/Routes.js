@@ -79,9 +79,9 @@ import Wpicon from './pages/Wpicon.js'
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename='/air-pro' >
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact  path="/air-pro" element={<Home />} />
         <Route path="/Menu" element={<Menu />} /> 
         
       
